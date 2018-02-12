@@ -47,6 +47,7 @@ p {
     width: 100%;
     background-size: auto;
     background-color: rgba(255, 255, 255, 0.3);
+    background-attachment: fixed;
     z-index: 1;
 }
 
