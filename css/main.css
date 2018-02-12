@@ -1,3 +1,18 @@
+@font-face {
+    font-family: Quicksand;
+    src: url('/fonts/Quicksand-Regular.otf') format('opentype');
+}
+
 body {
     background-image: url("/img/background.jpg");
+    background-size: auto;
+}
+
+body div #foreground {
+    background-color: white;
+}
+
+#header-name {
+    font-family: 'Quicksand', Helvetica, sans-serif;
+    font-size: 200%;
 }
