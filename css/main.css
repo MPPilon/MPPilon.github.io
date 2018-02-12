@@ -5,6 +5,11 @@
     src: url(/fonts/Quicksand-Regular.otf);
 }
 
+@font-face {
+    font-family: Playfair;
+    src: url(/fonts/PlayfairDisplay-Regular.otf);
+}
+
 /* Tag-specific styles */
 
 html {
@@ -14,6 +19,7 @@ body {
     height: 100%;
     z-index: 100;
     background-image: url("/img/background.jpeg");
+    font-family: Playfair, serif;
 }
 
 /* Class styles */
