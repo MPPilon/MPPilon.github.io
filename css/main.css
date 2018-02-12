@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: Quicksand;
-    src: url('/fonts/Quicksand-Regular.otf') format('opentype');
+    src: url(/fonts/Quicksand-Regular.otf);
 }
 
 /* Tag-specific styles */
@@ -28,8 +28,8 @@ body {
 #background {
     height: 100%;
     width: 100%;
-    background-image: url("/img/background.jpeg");
     background-size: auto;
+    background: rgba(255, 255, 255, 0.2) url("/img/background.jpeg");
     z-index: 1;
 }
 
