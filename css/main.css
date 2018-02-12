@@ -29,7 +29,8 @@ p {
 /* Class styles */
 
 .project-image {
-    height: 350px;
+    max-width: 100%;
+    max-height: 350px;
     display: block;
     margin: auto;
 }
@@ -61,6 +62,10 @@ p {
 
 #header-name small {
     font-size: 25%;
+}
+
+#header-contact {
+    font-family: Quicksand, sans-serif;
 }
 
 #header-subtitle {
