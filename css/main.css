@@ -1,7 +1,11 @@
+/* Font faces */
+
 @font-face {
     font-family: Quicksand;
     src: url('/fonts/Quicksand-Regular.otf') format('opentype');
 }
+
+/* Tag-specific styles */
 
 html {
     height: 100%;
@@ -9,9 +13,19 @@ html {
 body {
     height: 100%;
     z-index: 100;
+    font-family: 'Quicksand', Helvetica, sans-serif;
 }
 
-body #background {
+/* Class styles */
+
+.project-image {
+    width: 100%;
+    height: auto;
+}
+
+/* One-off tags */
+
+#background {
     height: 100%;
     width: 100%;
     background-image: url("/img/background.jpeg");
@@ -19,11 +33,10 @@ body #background {
     z-index: 1;
 }
 
-body #foreground {
+#foreground {
     background-color: white;
 }
 
 #header-name {
-    font-family: 'Quicksand', Helvetica, sans-serif;
-    font-size: 200%;
+    font-size: 500%;
 }
