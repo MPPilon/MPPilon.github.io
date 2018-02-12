@@ -3,6 +3,9 @@
     src: url('/fonts/Quicksand-Regular.otf') format('opentype');
 }
 
+html {
+    height: 100%;
+}
 body {
     z-index: 100;
 }
