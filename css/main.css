@@ -34,7 +34,7 @@ p {
 }
 
 .project-title {
-    font-size: 200%;
+    font-size: 150%;
     font-weight: bold;
 }
 
@@ -60,6 +60,6 @@ p {
 
 #header-subtitle {
     font-family: Quicksand, sans-serif;
-    font-size: 300%;
+    font-size: 200%;
     letter-spacing: 2px;
 }
