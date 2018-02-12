@@ -13,7 +13,6 @@ html {
 body {
     height: 100%;
     z-index: 100;
-    font-family: Quicksand, Helvetica, sans-serif;
     opacity: 1;
 }
 
@@ -45,5 +44,7 @@ body {
 }
 
 #header-name {
+    font-family: Quicksand, sans-serif;
     font-size: 500%;
+    kerning: 150%;
 }
