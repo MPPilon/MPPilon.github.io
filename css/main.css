@@ -4,11 +4,18 @@
 }
 
 body {
-    background-image: url("/img/background.jpg");
-    background-size: auto;
+    z-index: 100;
 }
 
-body div #foreground {
+body #background {
+    height: 100%;
+    width: 100%;
+    background-image: url("/img/background.jpeg");
+    background-size: auto;
+    z-index: 1;
+}
+
+body #foreground {
     background-color: white;
 }
 
