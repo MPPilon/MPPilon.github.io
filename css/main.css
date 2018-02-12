@@ -23,6 +23,11 @@ body {
     height: auto;
 }
 
+.project-title {
+    font-size: 200%;
+    font-weight: bold;
+}
+
 /* One-off tags */
 
 #background {
